@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Sustentável | Site Interativo</title>
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para ícones (Font Awesome) - para usar ícones legais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== MENU DE NAVEGAÇÃO ===== -->
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <i class="fas fa-leaf"></i> <!-- Ícone de folha -->
+                EcoFuture
+            </div>
+            <ul class="menu-lista">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#grafico">Gráfico</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+            <!-- Menu hamburguer para mobile -->
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== SEÇÃO HOME ===== -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1 class="animate-text">FUTURO SUSTENTÁVEL</h1>
+            <h2 class="animate-text delay-1">Equilíbrio entre Produção e Meio Ambiente</h2>
+            <p class="animate-text delay-2">Como manter o progresso sem esgotar o planeta?</p>
+            
+            <!-- Botão com efeito -->
+            <button class="btn-descobrir" id="btnDescobrir">
+                <span>Descobrir Como</span>
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            
+            <!-- Card de curiosidade que aparece -->
+            <div class="curiosidade-card" id="curiosidadeCard">
+                <i class="fas fa-lightbulb"></i>
+                <p id="curiosidadeTexto">A cada minuto, o equivalente a um caminhão de lixo plástico é despejado nos oceanos.</p>
+            </div>
+        </div>
+        
+        <!-- Efeito de partículas (bolhas) -->
+        <div class="particulas">
+            <div class="particula" style="left: 10%; animation-duration: 8s;"></div>
+            <div class="particula" style="left: 30%; animation-duration: 12s;"></div>
+            <div class="particula" style="left: 50%; animation-duration: 10s;"></div>
+            <div class="particula" style="left: 70%; animation-duration: 14s;"></div>
+            <div class="particula" style="left: 90%; animation-duration: 9s;"></div>
+            <div class="particula" style="left: 20%; animation-duration: 11s;"></div>
+            <div class="particula" style="left: 80%; animation-duration: 13s;"></div>
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO PROBLEMA ===== -->
+    <section id="problema" class="problema">
+        <div class="container">
+            <h2 class="section-title">O PROBLEMA</h2>
+            <div class="problema-grid">
+                <div class="problema-texto">
+                    <div class="card-consequencia animate-on-scroll">
+                        <i class="fas fa-industry"></i>
+                        <h3>Modelo Linear</h3>
+                        <p>Extrair → Produzir → Descartar</p>
+                    </div>
+                    
+                    <div class="card-consequencia animate-on-scroll">
+                        <i class="fas fa-temperature-high"></i>
+                        <h3>Aquecimento Global</h3>
+                        <p>Aumento da temperatura média do planeta</p>
+                    </div>
+                    
+                    <div class="card-consequencia animate-on-scroll">
+                        <i class="fas fa-water"></i>
+                        <h3>Escassez de Recursos</h3>
+                        <p>Água, alimentos e energia ficando escassos</p>
+                    </div>
+                    
+                    <div class="card-consequencia animate-on-scroll">
+                        <i class="fas fa-paw"></i>
+                        <h3>Perda de Biodiversidade</h3>
+                        <p>Espécies em extinção e ecossistemas destruídos</p>
+                    </div>
+                </div>
+                
+                <!-- Imagem ilustrativa -->
+                <div class="problema-imagem animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9f67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Planeta Terra sofrendo" 
+                         class="imagem-efeito">
+                    <div class="imagem-overlay">
+                        <p>Precisamos agir agora!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Frase de Gandhi com efeito -->
+            <div class="frase-destaque animate-on-scroll">
+                <i class="fas fa-quote-left"></i>
+                <p>"A Terra fornece o suficiente para satisfazer as necessidades de cada homem, mas não a ganância de cada homem."</p>
+                <span>- Mahatma Gandhi</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO SUSTENTABILIDADE ===== -->
+    <section id="sustentabilidade" class="sustentabilidade">
+        <div class="container">
+            <h2 class="section-title">O CONCEITO DE SUSTENTABILIDADE</h2>
+            <p class="subtitulo-secao">Não é apenas "parar de produzir", mas produzir de forma inteligente.</p>
+            
+            <div class="tripe-grid">
+                <div class="tripe-card animate-on-scroll" data-tilt>
+                    <div class="tripe-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social</h3>
+                    <p>Justiça e bem-estar humano</p>
+                    <div class="tripe-detalhes">
+                        <span>Educação</span>
+                        <span>Saúde</span>
+                        <span>Igualdade</span>
+                    </div>
+                </div>
+                
+                <div class="tripe-card animate-on-scroll" data-tilt>
+                    <div class="tripe-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Econômico</h3>
+                    <p>Viabilidade financeira e crescimento</p>
+                    <div class="tripe-detalhes">
+                        <span>Inovação</span>
+                        <span>Trabalho</span>
+                        <span>Renda</span>
+                    </div>
+                </div>
+                
+                <div class="tripe-card animate-on-scroll" data-tilt>
+                    <div class="tripe-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Ambiental</h3>
+                    <p>Preservação e renovação de recursos</p>
+                    <div class="tripe-detalhes">
+                        <span>Florestas</span>
+                        <span>Água</span>
+                        <span>Ar puro</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Galeria de imagens -->
+            <div class="galeria">
+                <h3>Natureza em Equilíbrio</h3>
+                <div class="galeria-grid">
+                    <div class="galeria-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Floresta">
+                        <div class="galeria-overlay">
+                            <span>Florestas</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Montanhas">
+                        <div class="galeria-overlay">
+                            <span>Montanhas</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Campo">
+                        <div class="galeria-overlay">
+                            <span>Campos</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Oceano">
+                        <div class="galeria-overlay">
+                            <span>Oceanos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO GRÁFICO ===== -->
+    <section id="grafico" class="grafico">
+        <div class="container">
+            <h2 class="section-title">LIMITE PLANETÁRIO</h2>
+            
+            <div class="grafico-container">
+                <!-- Gráfico de pizza animado -->
+                <div class="grafico-pizza">
+                    <div class="pizza" style="--percent: 175;">
+                        <div class="pizza-inner">
+                            <span>1,75</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grafico-info">
+                    <div class="info-card animate-on-scroll">
+                        <div class="info-number">1,75</div>
+                        <p>Planetas consumidos por ano</p>
+                    </div>
+                    
+                    <div class="info-card animate-on-scroll">
+                        <div class="info-number" id="contadorDias">0</div>
+                        <p>Dias até a sobrecarga da Terra</p>
+                    </div>
+                    
+                    <!-- Barra de progresso animada -->
+                    <div class="progresso-container">
+                        <div class="progresso-label">
+                            <span>Consumo atual</span>
+                            <span class="progresso-valor">175%</span>
+                        </div>
+                        <div class="progresso-barra">
+                            <div class="progresso-preenchimento" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Linha do tempo -->
+            <div class="timeline">
+                <h3>Dia da Sobrecarga da Terra</h3>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <span class="ano">1970</span>
+                        <span class="data">29 Dez</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="ano">1990</span>
+                        <span class="data">11 Out</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="ano">2000</span>
+                        <span class="data">23 Set</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="ano">2010</span>
+                        <span class="data">7 Ago</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="ano">2020</span>
+                        <span class="data">22 Ago</span>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="ano">2023</span>
+                        <span class="data">2 Ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO SOLUÇÕES ===== -->
+    <section id="solucoes" class="solucoes">
+        <div class="container">
+            <h2 class="section-title">SOLUÇÕES PRÁTICAS</h2>
+            
+            <div class="solucoes-grid">
+                <div class="solucao-card animate-on-scroll">
+                    <div class="solucao-imagem">
+                        <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Economia Circular">
+                        <div class="solucao-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                    </div>
+                    <h3>Economia Circular</h3>
+                    <p>O resíduo de uma indústria vira matéria-prima de outra.</p>
+                    <button class="btn-saiba-mais" data-solucao="circular">Saiba mais <i class="fas fa-arrow-right"></i></button>
+                </div>
+                
+                <div class="solucao-card animate-on-scroll">
+                    <div class="solucao-imagem">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Energias Limpas">
+                        <div class="solucao-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                    </div>
+                    <h3>Energias Limpas</h3>
+                    <p>Transição para solar, eólica e hidrogênio verde.</p>
+                    <button class="btn-saiba-mais" data-solucao="energias">Saiba mais <i class="fas fa-arrow-right"></i></button>
+                </div>
+                
+                <div class="solucao-card animate-on-scroll">
+                    <div class="solucao-imagem">
+                        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Agricultura Regenerativa">
+                        <div class="solucao-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                    </div>
+                    <h3>Agricultura Regenerativa</h3>
+                    <p>Produzir alimentos recuperando o solo.</p>
+                    <button class="btn-saiba-mais" data-solucao="agricultura">Saiba mais <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            
+            <!-- Modal para detalhes das soluções -->
+            <div class="modal" id="solucaoModal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <h3 id="modalTitulo"></h3>
+                    <p id="modalDescricao"></p>
+                    <div id="modalImagens" class="modal-imagens"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO CONCLUSÃO ===== -->
+    <section id="conclusao" class="conclusao">
+        <div class="container">
+            <h2 class="section-title">CONCLUSÃO E FUTURO</h2>
+            
+            <div class="conclusao-content">
+                <div class="conclusao-texto">
+                    <div class="conclusao-item animate-on-scroll">
+                        <i class="fas fa-check-circle"></i>
+                        <p>O equilíbrio é o único caminho para a sobrevivência do sistema econômico.</p>
+                    </div>
+                    
+                    <div class="conclusao-item animate-on-scroll">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>A sustentabilidade não é uma tendência, é uma necessidade urgente.</p>
+                    </div>
+                    
+                    <blockquote class="animate-on-scroll">
+                        "O futuro não é algo que esperamos; é algo que construímos agora."
+                    </blockquote>
+                    
+                    <!-- Chamada para ação -->
+                    <div class="cta-container">
+                        <h3>Faça sua parte!</h3>
+                        <div class="acoes-grid">
+                            <span class="acao-tag">🌱 Plante árvores</span>
+                            <span class="acao-tag">💧 Economize água</span>
+                            <span class="acao-tag">♻️ Recicle</span>
+                            <span class="acao-tag">🚲 Use transporte sustentável</span>
+                            <span class="acao-tag">💡 Economize energia</span>
+                            <span class="acao-tag">🌊 Proteja os oceanos</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Imagem inspiradora -->
+                <div class="conclusao-imagem animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1500829243541-74b677fecc30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Mãos segurando planta" 
+                         class="imagem-efeito">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão de voltar ao topo -->
+    <button id="btnTopo" class="btn-topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>Futuro Sustentável</h4>
+                <p>Trabalho Escolar - 2º Ano Ensino Médio</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <p class="footer-copy">© 2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Link para o JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
